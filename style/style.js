@@ -29,9 +29,7 @@ export default StyleSheet.create({
         marginTop: 25,
     },
     row: {
-       
-        padding: 10,
-        
+       padding: 10, 
     },
     footer: {
         marginTop: 50,
@@ -59,8 +57,21 @@ export default StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold'
     },
-    grid: {
-        alignContent: 'center',
-        marginLeft: 25,
-      },
+    points: {
+        alignSelf: 'center',
+        marginTop: 50,
+        marginBottom: 10,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    icon: {
+        alignSelf: 'center',
+        paddingVertical: 5,
+    },
+    zahl: {
+        alignSelf: 'center',
+    },
+    bonus: {
+        marginTop: 15,
+    }
 })
